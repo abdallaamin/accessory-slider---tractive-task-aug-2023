@@ -1,38 +1,41 @@
-# Hello there Good People of Tractive 
-This is my submission to "the Accessory slider component" task given to me at 29th aug 2023
+# Hello there, Good People of Tractive!
 
-try it on the web now from [here](https://accessory-slider-tractive-task-aug-2023.vercel.app/)
+This is my submission for "the Accessory slider component" task given to me on August 29th, 2023.
 
-## what I have done : 
-According to the requirments I implemented my solution using javascript along with html and css for sure, not using any js frame work as requested,
-I took it upon myself to not use any third library components or library ,
+Try it on the web now [here](https://accessory-slider-tractive-task-aug-2023.vercel.app/).
 
-starting with index.html : 
-its basic skeleton for the slider container and the cards , followed by slider bar container that gets filled dynamicly , I made the choice to make all the heavy lefting on the javascript side .
+## What I have done:
 
-moving to styles.css : 
-just a simple styling for the main component and adding media query for mobile responsive part ( slider and slider bar content)
+According to the requirements, I implemented my solution using JavaScript along with HTML and CSS. I did not use any JavaScript frameworks as requested. I took it upon myself to avoid using any third-party components or libraries.
 
+Starting with index.html:
 
-as for the main part : scripts.js : 
-This where the heavy lifting is happening .
-first I added the slider bar functionality and adding the dots dynamicly and making them responding to change cards on clicking . 
-then I spend most of my time and effort adding touch events and make The slidebar adapt corresponding to the visible cards , ( I didnt use any third part library like : swipper for ex , which was much more simpler but adds to bundle size and makes it dependent on external third party library )
- finally I had to add the resize window functionality to make sure it reset again to the default if you are moving from mobile to desktop.
+It's the basic skeleton for the slider container and the cards, followed by a slider bar container that gets filled dynamically. I chose to handle most of the heavy lifting on the JavaScript side.
 
- you will find simple comments guiding you throught each step on the script.js 
+Moving to styles.css:
+
+Just simple styling for the main component and adding a media query for mobile responsiveness (slider and slider bar content).
+
+As for the main part, scripts.js:
+
+This is where the heavy lifting happens. First, I added the functionality for the slider bar and dynamically added dots that respond to card changes when clicked. I then spent most of my time and effort adding touch events to make the slider adapt to visible cards. I didn't use any third-party libraries like Swiper; instead, I aimed to keep the bundle size small and avoid external dependencies. Finally, I implemented the window resize functionality to ensure a reset to the default layout when switching from mobile to desktop.
+
+You will find simple comments guiding you through each step in script.js.
 
 ![desktop screen](https://github.com/abdallaamin/accessory-slider---tractive-task-aug-2023/assets/26660809/cdd486e7-c3be-45b7-b97d-1ba852f9d069)
 ![mobile screen](https://github.com/abdallaamin/accessory-slider---tractive-task-aug-2023/assets/26660809/d8c7e2d4-04f3-4c6f-bd3e-6c521e4ae389)
+## Getting Started:
 
-## Getting Started
-I took it further more and deplyed it on the web using vercel so you can just check IT from  [here](https://accessory-slider-tractive-task-aug-2023.vercel.app/)
+I went a step further and deployed it on the web using Vercel, so you can check it out [here](https://accessory-slider-tractive-task-aug-2023.vercel.app/).
 
-If you want to get it started locally:
- clone the repo and then just open the index.html file on your local browser ( or run it on live dev server on vs code)
-## Learn More
-as for the time I spent on this task: 
-It was around 3/4 hours , most of them was on the touch and drag functionallity.
+If you want to get started locally, follow these steps:
+1. Clone the repository.
+2. Open the index.html file in your local browser or use a live development server in VS Code.
 
-## Deploy on Vercel
-I took it further more and deplyed it on the web using vercel on [here](https://accessory-slider-tractive-task-aug-2023.vercel.app/)
+## Learn More:
+
+As for the time I spent on this task, it was around 3 to 4 hours, with most of that time dedicated to implementing touch and drag functionality.
+
+## Deploy on Vercel:
+
+I went the extra mile and deployed it on the web using Vercel. You can access it [here](https://accessory-slider-tractive-task-aug-2023.vercel.app/).
